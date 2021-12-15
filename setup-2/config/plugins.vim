@@ -9,4 +9,5 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'ryanoasis/vim-devicons'
     Plug 'tpope/vim-fugitive'
+    Plug 'junegunn/vim-peekaboo'
 call plug#end()
