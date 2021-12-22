@@ -21,6 +21,8 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'ray-x/guihua.lua' "float term, gui support
 
     Plug 'ray-x/go.nvim'
+
+    Plug 'vim-airline/vim-airline'
 call plug#end()
 
 
