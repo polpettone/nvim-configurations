@@ -23,7 +23,8 @@ nnoremap <leader>s:set spell!
 
 nnoremap <leader>ff :Telescope find_files <CR>
 nnoremap <leader>fg :Telescope live_grep <CR>
-nnoremap <leader>tt :ToggleTerm <CR>
 nnoremap <leader>g :GoFmt <CR>
 
 
+nnoremap <leader>tv :ToggleTerm direction=vertical size=80 <CR>
+nnoremap <leader>th :ToggleTerm direction=horizontal size=10 <CR>
