@@ -23,6 +23,8 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'ray-x/go.nvim'
 
     Plug 'vim-airline/vim-airline'
+
+    Plug 'akinsho/toggleterm.nvim'
 call plug#end()
 
 
@@ -43,5 +45,7 @@ require 'go'.setup({
 })
 
 local protocol = require'vim.lsp.protocol'
+
+require("toggleterm").setup{}
 
 EOF

@@ -23,3 +23,6 @@ nnoremap <leader>s:set spell!
 
 nnoremap <leader>ff :Telescope find_files <CR>
 nnoremap <leader>fg :Telescope live_grep <CR>
+nnoremap <leader>tt :ToggleTerm <CR>
+
+
