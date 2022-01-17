@@ -1,6 +1,5 @@
 call plug#begin("~/.config/nvim/plugged")
     Plug 'morhetz/gruvbox'
-    Plug 'ryanoasis/vim-devicons'
     " Fuzzy Finder
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
@@ -10,7 +9,6 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'ryanoasis/vim-devicons'
     Plug 'tpope/vim-fugitive'
     Plug 'junegunn/vim-peekaboo'
-
 
     Plug 'neovim/nvim-lspconfig'
     Plug 'nvim-treesitter/nvim-treesitter'
