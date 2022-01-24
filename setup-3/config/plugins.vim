@@ -23,6 +23,10 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'vim-airline/vim-airline'
 
     Plug 'akinsho/toggleterm.nvim'
+
+
+    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+
 call plug#end()
 
 
