@@ -30,7 +30,7 @@ nnoremap <leader>gd :GoDef <CR>
 nnoremap <leader>tv :ToggleTerm direction=vertical size=80 <CR>
 nnoremap <leader>th :ToggleTerm direction=horizontal size=10 <CR>
 
-nnoremap <leader>br :set winwidth+=20<CR>
+nnoremap <leader>w :set winwidth+=20<CR>
 
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
