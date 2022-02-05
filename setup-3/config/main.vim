@@ -2,7 +2,8 @@ if (has("termguicolors"))
  set termguicolors
 endif
 set background=dark
-colorscheme gruvbox
+colorscheme nightfox
+
 
 set nocompatible
 set encoding=utf-8
@@ -31,6 +32,10 @@ nnoremap <leader>tv :ToggleTerm direction=vertical size=80 <CR>
 nnoremap <leader>th :ToggleTerm direction=horizontal size=10 <CR>
 
 nnoremap <leader>br :set winwidth+=20<CR>
+
+noremap <silent> <C-[> :tabnext<CR>
+noremap <silent> <C-]> :tabprevious<CR>
+noremap <silent> <C-q> :tabclose<CR>
 
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
