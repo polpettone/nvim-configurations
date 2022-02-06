@@ -5,7 +5,6 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'EdenEast/nightfox.nvim'
 
     " Fuzzy Finder
-    Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
 
     " file explorer
@@ -13,28 +12,29 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'Xuyuanp/nerdtree-git-plugin'
 
+    " icons
     Plug 'ryanoasis/vim-devicons'
+
+    " git integration
     Plug 'tpope/vim-fugitive'
+
+
+    " register viewer
     Plug 'junegunn/vim-peekaboo'
-
-    Plug 'neovim/nvim-lspconfig'
-
-    Plug 'nvim-treesitter/nvim-treesitter'
-
 
     " status line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
-    " open terminal
+    " terminal integration
     Plug 'akinsho/toggleterm.nvim'
-
-
-    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
-
 
     " go support
     Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
+
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 call plug#end()
 
