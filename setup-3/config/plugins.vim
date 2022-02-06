@@ -6,6 +6,7 @@ call plug#begin("~/.config/nvim/plugged")
 
     " Fuzzy Finder
     Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-lua/plenary.nvim'
 
     " file explorer
     Plug 'preservim/nerdtree'

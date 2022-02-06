@@ -16,6 +16,8 @@ set noswapfile
 set spell spelllang=en_us
 set nospell
 
+set title
+
 filetype off
 syntax on
 
