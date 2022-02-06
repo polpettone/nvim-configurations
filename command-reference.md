@@ -60,3 +60,10 @@
 - brackets      : **i[** and **a[**
 - braces        : **i**{ and **a{**
 - tags          : **it** and **at**
+
+
+# leave term
+C-\,C-N
+
+
+
