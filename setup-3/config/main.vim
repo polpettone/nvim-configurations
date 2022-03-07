@@ -22,7 +22,7 @@ filetype off
 syntax on
 
 inoremap jk <ESC>
-nnoremap <leader>s:set spell!
+nnoremap <leader>s :set spell! <CR>
 
 nnoremap <leader>ff :Telescope find_files <CR>
 nnoremap <leader>fg :Telescope live_grep <CR>
