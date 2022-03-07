@@ -38,6 +38,9 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'nvim-treesitter/nvim-treesitter'
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
+    " terraform syntax highlighting
+    Plug 'jvirtanen/vim-hcl'
+
 call plug#end()
 
 
