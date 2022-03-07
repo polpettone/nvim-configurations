@@ -18,6 +18,7 @@ call plug#begin("~/.config/nvim/plugged")
 
     " git integration
     Plug 'tpope/vim-fugitive'
+    Plug 'rbong/vim-flog'
 
 
     " register viewer

@@ -33,7 +33,8 @@ nnoremap <leader>gd :GoDef <CR>
 nnoremap <leader>tv :ToggleTerm direction=vertical size=80 <CR>
 nnoremap <leader>th :ToggleTerm direction=horizontal size=10 <CR>
 
-nnoremap <leader>br :set winwidth+=20<CR>
+nnoremap <leader>tw :vertical resize 60<CR>
+nnoremap <leader>tt :vertical resize 30<CR>
 
 noremap <silent> <C-[> :tabnext<CR>
 noremap <silent> <C-]> :tabprevious<CR>
