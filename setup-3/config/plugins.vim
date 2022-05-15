@@ -3,6 +3,7 @@ call plug#begin("~/.config/nvim/plugged")
     " color colorschemes
     Plug 'morhetz/gruvbox'
     Plug 'EdenEast/nightfox.nvim'
+    Plug 'sainnhe/everforest'
 
     " Fuzzy Finder
     Plug 'nvim-telescope/telescope.nvim'

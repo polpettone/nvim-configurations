@@ -2,7 +2,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 set background=dark
-colorscheme nightfox
+colorscheme everforest
 
 
 set nocompatible
